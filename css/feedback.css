@@ -1,0 +1,60 @@
+input {
+    background: transparent;
+    color: rgb(51, 8, 131);
+    padding: 10px 20px;
+    border: 2px solid #003B95;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 28vw;
+  }
+
+  select{
+    background-color: #003B95;
+    color: #ffffff;
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: 700;
+    padding: 5px;
+  }
+
+  .navButton{
+    background-color: #ffffff;
+    width: 80px;
+    color: #003B95;
+    height: 38px;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 40px;
+    font-family: "Jaro", sans-serif;
+}
+.navButton:hover{
+    background-color: #1b1b7b;
+    color: white;
+    font-weight: 200;
+    border: 1px solid white;
+}
+.navButton:hover .navButton a{
+    color: white;
+}
+
+.containerFeedback{
+    height: 60vh;
+    width: 40vw;
+    background-color: #eaeef5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#addHotel{
+  height: 70vh;
+}

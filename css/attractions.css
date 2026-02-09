@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.box {
+    background-color: rgb(19, 19, 63);
+    height: 300px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+}
+
+.text {
+    margin-bottom: 30px;
+    margin-left: 100px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+}
+
+.small {
+    font-size: large;
+}
+
+.pics {
+    margin-left: 100px;
+    margin-right: 300px;
+    display: flex;
+    position: relative;
+    align-items: right;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 10vw;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #434380;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.aligns {
+
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: x-large;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+
+}
+
+.aligns1 {
+
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: small;
+    font-family: Roboto, sans-serif;
+
+}
+
+.aligns2 {
+
+    margin-left: 100px;
+    margin-top: 1px;
+    font-size: small;
+    font-family: Roboto, sans-serif;
+
+}
+
+.cities {
+
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    width: 19vw;
+    height: 150px;
+    overflow: hidden;
+    text-align: end;
+    font-weight: bold;
+
+
+}
+
+.bigbox {
+
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    width: 80vw;
+
+}
+
+.bigbox1 {
+
+    display: flex;
+    justify-content: space-between;
+    width: 900vw;
+}
+
+.container1 {
+    display: flex;
+    justify-content: left;
+    width: 80vw;
+
+}
+
+.cities1 {
+
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    width: 26vw;
+    height: 190px;
+    overflow: hidden;
+    text-align: end;
+    font-weight: bold;
+
+
+}
+
+.cityimage1 {
+
+    height: 190px;
+    width: 26vw;
+    transition: transform 0.4s ease-in-out;
+}
+
+.cityimage1:hover {
+
+    transform: scale(1.2);
+    cursor: crosshair;
+}
+
+
+.cityimage {
+
+    height: 160px;
+    width: 22vw;
+    transition: transform 0.4s ease-in-out;
+}
+
+.cityimage:hover {
+
+    transform: scale(1.2);
+    cursor: crosshair;
+}
+
+.spaces {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.spaces1 {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.alignment2 {
+
+    margin-left: 5px;
+    margin-top: 50px;
+    font-size: small;
+    font-family: Roboto, sans-serif;
+
+}
+
+.alignment1 {
+
+    margin-left: 5px;
+    margin-top: 100px;
+    font-size: small;
+    font-family: Roboto, sans-serif;
+
+}
+
+.alignment {
+
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: small;
+    font-family: Roboto, sans-serif;
+
+}
+
+.line {
+    height: 1px;
+    width: 80vw;
+    background-color: lightslategrey;
+    margin: auto;
+}
+
+.smallbuttons1 {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 5vw;
+    height: 30px;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.smallbuttons1:hover {
+    background-color: #7a7a93;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.smallbuttons2 {
+    background-color: #ffffff;
+    color: rgb(33, 9, 246);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 5vw;
+    height: 30px;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.smallbuttons2:hover {
+    background-color: #b6b6d2;
+    color: rgb(8, 0, 255);
+    cursor: pointer;
+}
+
+.signbox {
+    margin-left: 100px;
+    width: 80vw;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+.signbox1 {
+    margin-left: 100px;
+    width: 80vw;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+.signbox2 {
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 40vw;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
+
+
+.account {
+
+    text-align: left;
+    width: 80vw;
+    margin-left: 7px;
+}
+
+.in {
+    margin-left: 15px;
+}
+
+#feedback{
+    color: blue;
+    text-decoration: underline;
+}

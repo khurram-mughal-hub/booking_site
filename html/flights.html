@@ -1,0 +1,527 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/attractions.css">
+    <link rel="stylesheet" href="/css/indexHeader.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <title>Flights | Booking.Ask - Explore Flight Destinations</title>
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div id="navUp" class="flexBox">
+            <div id="navUpTitle" class="flexBox">
+                <div id="navUpTitleLogo">
+                    <img src="/temp/Logo.png" alt="">
+                </div>
+                <div>
+                    <a href="/"><h1 id="navTitle">booking.ask</h1></a>
+                </div>
+            </div>
+            <div id="navUpRight" class="flexBox">
+                <div id="currency">PKR</div>
+                <div id="navFlag"><img src="/temp/PKFlag.png" alt="Flag"></div>
+                <div id="navRegister"><a href="">Add Your Hotel</a></div>
+                <div id="navSignIn"><a href="/html/LogIn1.html" class="navButton flexBox">Sign in</a></div>
+                <div id="navSignUp"><a href="/html/register.html" class="navButton flexBox">Register</a></div>
+            </div>
+        </div>
+        <div id="navDown" class="flexBox">
+            <div class="navDownButtons">
+                <a href="/index.html"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-buildings" viewBox="0 0 16 16">
+                        <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
+                        <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
+                      </svg>
+                </span>
+                <p>Stays</p></a>
+            </div>
+            <div class="navDownButtons active">
+                <a href="/html/flights.html">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane-engines-fill" viewBox="0 0 16 16">
+                                <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.35 4.35 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0"/>
+                              </svg>
+                        </span>
+                        <p>Flights</p>
+                    </a>
+            </div>
+            <div class="navDownButtons">
+                <a href="/html/feedback.html">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building-up" viewBox="0 0 16 16">
+                                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0"/>
+                                <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1z"/>
+                                <path d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+                              </svg>
+                        </span>
+                        <p>Feedback</p>
+                    </a>
+
+            </div>
+            <div class="navDownButtons">
+                <a href="/html/addHotel.html">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus" viewBox="0 0 16 16">
+                                <path d="M8 6.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 .5-.5"/>
+                                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                              </svg>
+                        </span>
+                        <p>Add Hotel</p>
+                    </a>
+            </div>
+            <div class="navDownButtons">
+                <a href="/html/attractions.html"><a href="/html/attractions.html"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-body-text" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 0 .5m0 2A.5.5 0 0 1 .5 2h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m9 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-9 2A.5.5 0 0 1 .5 4h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m5 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m7 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m-12 2A.5.5 0 0 1 .5 6h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m8 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-8 2A.5.5 0 0 1 .5 8h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m7 0a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-7 2a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                </span>
+                <p>Attractions</p></a></a>
+            </div>
+            <div class="navDownButtons">
+                <a href="/html/oneNightStay.html">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM1 14V4h14v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1m7-6.507c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                          </svg>
+                    </span>
+                    <p>One Night Stays</p>
+                </a>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="slide">
+        <div class="slideLeft">
+            <p class="mainBigP">Lets Plan your trips<br>
+                worldwide </p><br>
+            <a href=""><span id="slideLeft1Button" class="slideButtons">See Plans</span></a>
+        </div>
+        <div class="slideRight image-container">
+            <a href="/temp/airplane.webp"><img class="slideImages" src="/temp/airplane.webp" alt=""></a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="aligns">
+
+        Top destinations <br><br>
+
+    </div>
+
+    <div class="aligns2">
+
+        <div class="container1">
+
+
+            <div class="bigbox1">
+
+                <div class="cities1">
+
+                    <a href="/temp/america.jpg"><img src="/temp/america.jpg" alt="network error" class="cityimage1"></a>
+
+                </div>
+
+
+                <div class="cities1">
+
+                    <a href="/temp/italy.jpg"><img src="/temp/italy.jpg" alt="network error" class="cityimage1"></a>
+                    
+
+                </div>
+
+                <div class="cities1">
+
+                    <a href="/temp/mexico.jpg"><img src="/temp/mexico.jpg" alt="network error" class="cityimage1"></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="container1">
+
+
+            <div class="bigbox1">
+
+                <div class="cities1">
+
+                    <a href="/temp/south africa.jpg"><img src="/temp/south africa.jpg" alt="network error" class="cityimage1"></a>
+
+                </div>
+
+                <div class="cities1">
+
+                    <a href="/temp/egypt.jpg"><img src="/temp/egypt.jpg" alt="network error" class="cityimage1"></a>
+
+                </div>
+
+                <div class="cities1">
+
+                    <a href="/temp/dubai.jpg"><img src="/temp/dubai.jpg" alt="network error" class="cityimage1"></a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="aligns">
+
+        <div class="line">
+        </div>
+
+        <br>
+        Your Account, Your Travel
+        <br><br>
+
+    </div>
+
+    <div class="signbox">
+
+        <div class="spaces">
+
+            <div class="account">
+
+                <b><br>
+                    <p>All your trip details in one place.
+                </b> <br>Sign in to book faster and manage your trip with ease.</p>
+                <br><br><br>
+                <div class="spaces">
+
+                    <div class="smallbuttons1">
+                        Sign Up
+                    </div>
+
+                    <div class="smallbuttons2">
+                        Register
+                    </div>
+
+                </div>
+
+            </div>
+
+            <img src="/temp/gift.png" alt="Error" height="130px">
+
+        </div>
+
+    </div>
+
+    <div class="aligns">
+
+        <div class="line">
+        </div>
+        <br>
+        We've got you covered
+
+    </div>
+
+    <div class="alignment2">
+
+        <div class="spaces1">
+
+            <div class="same">
+
+                <img src="/temp/attractions.png" alt="Error" height="40px">
+                <b>Explore top attractions</b> <br>
+                Experience the best of your destination,<br> with attractions, tours, activities and more <br>
+
+            </div>
+
+            <div class="same">
+
+                <img src="/temp/calender.png" alt="error" height="40px">
+                <b> Fast and flexible</b><br>
+                Book tickets online in minutes,<br> with free cancellation on many attractions<br>
+
+            </div>
+
+            <div class="same">
+
+                <img src="/temp/headphone.png" alt="Error" height="40px">
+                <b>Support when you need it</b><br>
+                Booking.com's global Customer<br> Service team is here to help 24/7
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="aligns">
+
+        <div class="line">
+        </div>
+        <br>
+        Explore more destinations
+
+    </div>
+
+    <div class="aligns2">
+
+        Find things to do in cities around the world
+
+    </div>
+    <br><br>
+
+    <div class="aligns2">
+
+        <div class="container">
+
+
+            <div class="bigbox">
+                <div class="cities">
+                    <a href="/temp/england.jpg"><img src="/temp/england.jpg" alt="network error" class="cityimage"></a>
+                    
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/rome.jpg"><img src="/temp/rome.jpg" alt="network error" class="cityimage"></a>
+                    
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/vietnam.jpg"><img src="/temp/vietnam.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/new york.jpg"><img src="/temp/new york.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="aligns2">
+
+        <div class="container">
+
+
+            <div class="bigbox">
+
+                <div class="cities">
+                    <a href="/temp/iceland.jpg"><img src="/temp/iceland.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/india.jpg"><img src="/temp/india.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/indonesia.jpg"><img src="/temp/indonesia.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/japan.jpg"><img src="/temp/japan.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="aligns2">
+
+        <div class="container">
+
+
+            <div class="bigbox">
+
+                <div class="cities">
+                    <a href="/temp/morrocee.jpg"><img src="/temp/morrocee.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/nepal.jpg"><img src="/temp/nepal.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/norway.jpg"><img src="/temp/norway.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/oman.jpg"><img src="/temp/oman.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="aligns2">
+
+        <div class="container">
+
+
+            <div class="bigbox">
+
+                <div class="cities">
+                    <a href="/temp/paris.jpg"><img src="/temp/paris.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/portugal.jpg"><img src="/temp/portugal.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/turkey.jpg"><img src="/temp/turkey.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/singapor.jpg"><img src="/temp/singapor.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="aligns2">
+
+        <div class="container">
+
+
+            <div class="bigbox">
+
+                <div class="cities">
+                    <a href="/temp/australia.jpg"><img src="/temp/australia.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/brazil.jpg"><img src="/temp/brazil.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/china.jpg"><img src="/temp/china.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+                <div class="cities">
+                    <a href="/temp/spain.jpg"><img src="/temp/spain.jpg" alt="network error" class="cityimage"></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="signbox1">
+        
+        <br>
+
+        <div class="in">
+
+            Tell us how we are doing and what we can improve<br><br>
+            <a id="feedback" href="/html/feedback.html">Send Feedback</a>
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <footer>
+        <div id="footerContainer">
+            <div id="leftFooter">
+                <a href="index.html"><img src="/temp/Logo.png" alt="Logo"></a>
+                <div>
+                    <a href="/"><h1 id="navTitle">booking.ask</h1></a>
+                </div>
+            </div>
+            <div class="verticalSeperator"></div>
+            <div id="midFooter">
+                <table>
+                    <h1>Links</h1>
+                    <tr>
+                        <td>
+                            <a href="/index.html">Stays</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/html/addHotel.html">Add Hotel</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/html/flights.html">Flights</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/html/feedback.html">Feedback</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/html/attractions.html">Attractions</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/html/LogIn1.html">Sign in</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/html/register.html">Sign Up</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/html/flights.html">Flights + Hotels</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="verticalSeperator"></div>
+            <div id="rightFooter">
+                <div id="rightFooterUp">
+                    <img src="/temp/footersocial-removebg-preview.png" alt="">
+                </div>
+                <div id="rightFooterDown">
+                    <h2>
+                        The Project of Ali, Saif, Khurram
+                    </h2>
+                    <h3>-copyright, All rights are reserved</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

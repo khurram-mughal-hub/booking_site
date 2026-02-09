@@ -1,0 +1,30 @@
+# IDE and Editor folders
+.vs/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Build outputs (if any added later)
+dist/
+build/
+node_modules/
