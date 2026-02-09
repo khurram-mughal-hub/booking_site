@@ -1,0 +1,14 @@
+{
+  "public": "public",
+  "rewrites": [
+    { "source": "/", "destination": "/html/index.html" },
+    { "source": "/index.html", "destination": "/html/index.html" },
+    { "source": "/addHotel.html", "destination": "/html/addHotel.html" },
+    { "source": "/attractions.html", "destination": "/html/attractions.html" },
+    { "source": "/feedback.html", "destination": "/html/feedback.html" },
+    { "source": "/flights.html", "destination": "/html/flights.html" },
+    { "source": "/LogIn1.html", "destination": "/html/LogIn1.html" },
+    { "source": "/oneNightStay.html", "destination": "/html/oneNightStay.html" },
+    { "source": "/register.html", "destination": "/html/register.html" }
+  ]
+}

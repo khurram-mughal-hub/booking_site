@@ -1,15 +1,16 @@
+/* Slider Styles */
 
 .slider {
     max-width: 100vw;
     overflow: hidden;
-  }
-  
-  #slides {
+}
+
+#slides {
     display: flex;
     animation: slide 25s ease-in-out infinite; 
-  }
-  
-  .slide {
+}
+
+.slide {
     min-width: 100%;
     height: 450px;
     display: flex;
@@ -19,16 +20,15 @@
     font-weight: bold;
     color: white;
     padding: 0 50px;
-  }
+}
 
-  
-  .slide:nth-child(1) { background: linear-gradient(135deg, #041B44 0%, #0a3d7c 100%); }
-  .slide:nth-child(2) { background: linear-gradient(135deg, #354638 0%, #4a6b4f 100%); }
-  .slide:nth-child(3) { background: linear-gradient(135deg, #310a0a 0%, #5c1a1a 100%); }
-  .slide:nth-child(4) { background: linear-gradient(135deg, #3a2e0d 0%, #6b541a 100%); }
-  .slide:nth-child(5) { background: linear-gradient(135deg, #2e180e 0%, #5c3520 100%); }
-  
-  @keyframes slide {
+.slide:nth-child(1) { background: linear-gradient(135deg, #041B44 0%, #0a3d7c 100%); }
+.slide:nth-child(2) { background: linear-gradient(135deg, #354638 0%, #4a6b4f 100%); }
+.slide:nth-child(3) { background: linear-gradient(135deg, #310a0a 0%, #5c1a1a 100%); }
+.slide:nth-child(4) { background: linear-gradient(135deg, #3a2e0d 0%, #6b541a 100%); }
+.slide:nth-child(5) { background: linear-gradient(135deg, #2e180e 0%, #5c3520 100%); }
+
+@keyframes slide {
     0% { transform: translateX(0); }
     15% { transform: translateX(0); }
     20% { transform: translateX(-100%); }
@@ -38,32 +38,32 @@
     70% { transform: translateX(-300%); }
     90% { transform: translateX(-300%); }
     100% { transform: translateX(-400%); }
-  }
+}
 
-  .slideLeft{
+.slideLeft{
     width: 50vw;
     padding-left: 50px;
-  }
-  .slideRight{
+}
+.slideRight{
     width: 30vw;
-  }
+}
 
-  .mainBigP{
+.mainBigP{
     font-size: 52px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 15px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  }
+}
 
-  .slide p {
+.slide p {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
     opacity: 0.9;
-  }
+}
 
-  .slideButtons{
+.slideButtons{
     background-color: #febb02;  
     color: #003580;
     height: auto;
@@ -75,43 +75,43 @@
     display: inline-block;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  }
-  .slideButtons:hover{
+}
+.slideButtons:hover{
     background-color: #fff;  
     color: #003580;
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-  }
+}
 
-  .slideImages{
+.slideImages{
     height: 320px;
     width: 420px;
     border-radius: 20px;
     object-fit: cover;
     box-shadow: 0 10px 40px rgba(0,0,0,0.3);
     transition: all 0.4s ease;
-  }
+}
   
-  .image-container {
+.image-container {
     perspective: 1000px;
-  }
+}
   
-  .image-container:hover .slideImages {
+.image-container:hover .slideImages {
     transform: rotateY(10deg) rotateX(5deg) scale(1.02);
     cursor: pointer;
     box-shadow: 0 20px 60px rgba(0,0,0,0.4);
-  }
+}
   
-  #formContainer{
+#formContainer{
     width: 100vw;
     display: flex;
     justify-content: center;
     position: relative;
     bottom: 30px;
     z-index: 100;
-  }
+}
 
-  #formSubContainer{
+#formSubContainer{
     width: 85vw;
     height: 70px;
     background-color: #fff;
@@ -121,18 +121,18 @@
     border-radius: 10px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.15);
     border: 3px solid #febb02;
-  }
+}
 
-  #main2Form{
+#main2Form{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: auto;
     width: 85vw;
     height: 64px;
-  }
+}
 
-  .inputDiv{
+.inputDiv{
     width: 24.2vw;
     height: 58px;
     background-color: #f8f9fa;
@@ -142,18 +142,18 @@
     align-items: center;
     border: 2px solid transparent;
     transition: all 0.3s ease;
-  }
+}
 
-  .inputDiv:focus-within {
+.inputDiv:focus-within {
     border-color: #003580;
     background-color: #fff;
-  }
+}
 
-  input:focus-within{
+input:focus-within{
     background: transparent;
     border-style: none;
     outline: none;
-  }
+}
 
 .dropdown {
   position: relative;
